@@ -1,0 +1,47 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    title
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width')
+    link(rel='stylesheet', type='text/css', href='css/style.css')
+  body
+    .bar
+    .logo
+    p.give-me-some-space
+      | Open the console to start Lissajous.
+      br
+      | Drop .wav files into to the window to import them.
+      br
+      br
+      a(href='https://github.com/kylestetz/lissajous/blob/master/Tutorial.md', target='_blank') Tutorial
+      |  ~ 
+      a(href='https://github.com/kylestetz/lissajous/blob/master/API.md', target='_blank') API docs
+    .drag-and-drop
+      .drag-and-drop-inner Drop your .wav files here.
+    script(src='js/vendor/bufferLoader.js')
+    script(src='js/lissajous/context.js')
+    script(src='js/lissajous/track.core.js')
+    script(src='js/lissajous/track.events.js')
+    script(src='js/lissajous/track.api.js')
+    script(src='js/lissajous/track.oscillator.js')
+    script(src='js/lissajous/track.sampler.js')
+    script(src='js/lissajous/track.envelope.js')
+    script(src='js/lissajous/track.scheduler.js')
+    script(src='js/lissajous/track.sequencer.js')
+    script(src='js/lissajous/track.filter.js')
+    script(src='js/lissajous/track.record.js')
+    script(src='js/lissajous/track.effects.delay.js')
+    script(src='js/lissajous/track.effects.chorus.js')
+    script(src='js/lissajous/track.effects.tremolo.js')
+    script(src='js/lissajous/track.effects.filter.js')
+    script(src='js/lissajous/track.effects.reverb.js')
+    script(src='js/lissajous/track.effects.distortion.js')
+    script(src='js/lissajous/group.js')
+    script(src='js/lissajous/generators.js')
+    script(src='js/vendor/tuna.js')
+    script(src='js/vendor/recorder.js')
+    script(src='js/util/extras.js')
+    script(src='js/util/drag-and-drop.js')

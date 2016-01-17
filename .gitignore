@@ -5,3 +5,5 @@ environment/samples/
 environment/reason/
 notes.md
 node_modules/
+src/lib
+dist
