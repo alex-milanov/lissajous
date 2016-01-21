@@ -40,7 +40,7 @@ gulp.task('jade', function(done) {
 	// TODO: get from config
 	var YOUR_LOCALS = {};
 
-	gulp.src('./src/jade/**/*.jade')
+	gulp.src('./src/jade/*.jade')
 		.pipe(jade({
 			locals: YOUR_LOCALS,
 			pretty: true
